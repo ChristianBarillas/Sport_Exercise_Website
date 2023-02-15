@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--
+            display: flex
+        -->
+        <div class="d-flex flex-row justify-content-center">
+            <!--
+                w-auto w-25 w-50 w-75 w-100
+                p-3 = 
+            -->
+            <img src="img/carved-rock-logo-black.png" alt="logo" class="w-25 p-3">
+        </div>
+        <div id="banner">
+            <!-- aqui iria la imagen de fondo -->
+        </div>
+    </header>
+    <!--
+        .container: Margen para nuestro contenido izquierda y derecha
+        .container-fluid: Margen mas pequeño 
+        px = padding izquierda y derecha
+        my = margen arriba y abajo
+    -->
+    <section>
+        <div class="d-flex flex-row justify-content-around flex-wrap px-5 my-3">
+            <!-- Primer elemento 
+                d-block = display: block;
+            -->
+            <div class="d-flex flex-column flex-fill text-center p-4 mx-2 my-2 border border-primary">
+                <img src="img/mountain_Blue.png" alt="mountain" class="img-fluid w-25 mx-auto d-block">
+                <h5>Climbing</h5>
+                <p>Get your climbing gear for the season.</p>
+            </div>
+            <!-- segundo elemento -->
+            <div class="d-flex flex-column flex-fill text-center p-4 mx-2 my-2 border border-primary">
+                <img src="img/shoe_Blue.png" alt="Shoes" class="img-fluid w-25 mx-auto d-block">
+                <h5>Running</h5>
+                <p>Run from your troubles with these shoes.</p>
+            </div>
+            <!-- tercer elemento -->
+            <div class="d-flex flex-column flex-fill text-center p-4 mx-2 my-2 border border-primary">
+                <img src="img/bicycle_Blue.png" alt="Bicycle" class="img-fluid w-25 mx-auto d-block">
+                <h5>Bicycle</h5>
+                <p>Can´t get away fast enough?</p>
+            </div>
+        </div>
+        <!-- 
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/shoe_Blue.png" alt="Shoes" class="img-fluid w-25 mx-auto d-block">
+                <h5>Running</h5>
+                <p>Run from your troubles with these shoes.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="img/shoe_Blue.png" alt="Shoes" class="img-fluid w-25 mx-auto d-block">
+                <h5>Running</h5>
+                <p>Run from your troubles with these shoes.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="img/shoe_Blue.png" alt="Shoes" class="img-fluid w-25 mx-auto d-block">
+                <h5>Running</h5>
+                <p>Run from your troubles with these shoes.</p>
+            </div>
+        </div>
+        -->
+        <div class="d-flex align-items-center px-5 mb-3">
+            <div class="w-25">
+                <img src="img/shutterstock_422560537.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="w-75 p-2 ms-3">
+                <h4>Test Title</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <button class="btn btn-outline-success">Lear More</button>
+            </div>
+        </div>
+    </section>
+    <!--
+        px = padding izquierda y derecha
+        py = padding top y bottom
+        p = engloba a los 4 padding
+        mx, my, m
+        bg-color => asigna color de fondo
+    -->
+    <footer class="bg-secondary px-5 py-3 text-white">
+        <h5 class="text-center">Contactanos</h5>
+        <div class="text-center">
+            <a href="#" class="text-white mx-4"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white mx-4"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white mx-4"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white mx-4"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

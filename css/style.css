@@ -1,0 +1,31 @@
+#banner{
+    background-image: url('../img/shutterstock_116403520.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -150px;
+}
+
+/** utilizando las media query */
+/** para pantallas menores a 768px (movil) */
+@media (max-width:768px){
+    #banner{
+        background-image: url('../img/shutterstock_116403520.jpg');
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center -60px;
+    }
+}
+
+/** mayores a 768 e igual 850px ()*/
+@media(min-width:768px) and (max-width: 850px){
+    #banner{
+        background-image: url('../img/shutterstock_116403520.jpg');
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center -100px;
+    }
+}
+
